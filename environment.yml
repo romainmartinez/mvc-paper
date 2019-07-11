@@ -1,0 +1,12 @@
+# create a conda environment with: `conda env create`
+name: mvc
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - nb_conda_kernels
+  - numpy
+  - pandas
+  - scipy
+  - pytest
+  - nb_black
